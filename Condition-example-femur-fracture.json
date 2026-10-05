@@ -1,0 +1,47 @@
+{
+  "resourceType" : "Condition",
+  "id" : "example-femur-fracture",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition example-femur-fracture</b></p><a name=\"example-femur-fracture\"> </a><a name=\"hcexample-femur-fracture\"> </a><p><b>Handover Source Section</b>: <a href=\"CodeSystem-imist-ambo-section.html#imist-ambo-section-I-inj\">IMIST-AMBO Handover Section: I-inj</a> (Injuries / information)</p><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status provisional}\">Provisional</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}\">Encounter Diagnosis</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 71620000}\">Fracture of femur</span></p><p><b>subject</b>: <a href=\"Patient-example.html\"> Male, DoB:  ( ?ngen-9?)</a></p><p><b>encounter</b>: <a href=\"Encounter-example-handover-encounter.html\">Encounter: status = arrived; class = emergency (ActCode#EMER); period = 2026-10-05 09:42:00+1100 --&gt; (ongoing)</a></p></div>"
+  },
+  "extension" : [{
+    "url" : "https://basanovase.github.io/paramedic-handover-ig/StructureDefinition/handover-source-section",
+    "valueCoding" : {
+      "system" : "https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section",
+      "code" : "I-inj",
+      "display" : "Injuries / information"
+    }
+  }],
+  "clinicalStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+      "code" : "active"
+    }]
+  },
+  "verificationStatus" : {
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-ver-status",
+      "code" : "provisional"
+    }]
+  },
+  "category" : [{
+    "coding" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/condition-category",
+      "code" : "encounter-diagnosis"
+    }]
+  }],
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "71620000",
+      "display" : "Fracture of femur"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/example"
+  },
+  "encounter" : {
+    "reference" : "Encounter/example-handover-encounter"
+  }
+}

@@ -1,0 +1,71 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sct: <http://snomed.info/id/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://basanovase.github.io/paramedic-handover-ig/Condition/example-femur-fracture> a fhir:Condition ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "example-femur-fracture"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Condition example-femur-fracture</b></p><a name=\"example-femur-fracture\"> </a><a name=\"hcexample-femur-fracture\"> </a><p><b>Handover Source Section</b>: <a href=\"CodeSystem-imist-ambo-section.html#imist-ambo-section-I-inj\">IMIST-AMBO Handover Section: I-inj</a> (Injuries / information)</p><p><b>clinicalStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>verificationStatus</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status provisional}\">Provisional</span></p><p><b>category</b>: <span title=\"Codes:{http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}\">Encounter Diagnosis</span></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 71620000}\">Fracture of femur</span></p><p><b>subject</b>: <a href=\"Patient-example.html\"> Male, DoB:  ( ?ngen-9?)</a></p><p><b>encounter</b>: <a href=\"Encounter-example-handover-encounter.html\">Encounter: status = arrived; class = emergency (ActCode#EMER); period = 2026-10-05 09:42:00+1100 --&gt; (ongoing)</a></p></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "https://basanovase.github.io/paramedic-handover-ig/StructureDefinition/handover-source-section" ] ;
+     fhir:Extension.valueCoding [
+       fhir:Coding.system [ fhir:value "https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section" ] ;
+       fhir:Coding.code [ fhir:value "I-inj" ] ;
+       fhir:Coding.display [ fhir:value "Injuries / information" ]
+     ]
+  ] ;
+  fhir:Condition.clinicalStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/condition-clinical" ] ;
+       fhir:Coding.code [ fhir:value "active" ]
+     ]
+  ] ;
+  fhir:Condition.verificationStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/condition-ver-status" ] ;
+       fhir:Coding.code [ fhir:value "provisional" ]
+     ]
+  ] ;
+  fhir:Condition.category [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/condition-category" ] ;
+       fhir:Coding.code [ fhir:value "encounter-diagnosis" ]
+     ]
+  ] ;
+  fhir:Condition.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       a sct:71620000 ;
+       fhir:Coding.system [ fhir:value "http://snomed.info/sct" ] ;
+       fhir:Coding.code [ fhir:value "71620000" ] ;
+       fhir:Coding.display [ fhir:value "Fracture of femur" ]
+     ]
+  ] ;
+  fhir:Condition.subject [
+     fhir:link <https://basanovase.github.io/paramedic-handover-ig/Patient/example> ;
+     fhir:Reference.reference [ fhir:value "Patient/example" ]
+  ] ;
+  fhir:Condition.encounter [
+     fhir:link <https://basanovase.github.io/paramedic-handover-ig/Encounter/example-handover-encounter> ;
+     fhir:Reference.reference [ fhir:value "Encounter/example-handover-encounter" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://basanovase.github.io/paramedic-handover-ig/Condition/example-femur-fracture.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

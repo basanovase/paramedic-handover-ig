@@ -1,0 +1,3 @@
+URL,Version,Status,OIDs,Name,Title,Description,Used
+http://hl7.org/fhir/encounter-status,4.0.1,draft,"2.16.840.1.113883.4.642.4.247",EncounterStatus,EncounterStatus,"Current state of the encounter.","ValueSet/encounter-status"
+https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section,0.1.0,draft,,ImistAmboSection,IMIST-AMBO Handover Section,"Sections of the IMIST-AMBO clinical handover mnemonic.","ValueSet/imist-ambo-section-vs"

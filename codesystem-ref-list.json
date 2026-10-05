@@ -1,0 +1,25 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/encounter-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "EncounterStatus",
+    "title" : "EncounterStatus",
+    "description" : "Current state of the encounter.",
+    "oids" : ["2.16.840.1.113883.4.642.4.247"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-encounter-status.html" : "EncounterStatus"
+  },
+  {
+    "url" : "https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ImistAmboSection",
+    "title" : "IMIST-AMBO Handover Section",
+    "description" : "Sections of the IMIST-AMBO clinical handover mnemonic.",
+    "uses" : {
+    },
+    "ValueSet-imist-ambo-section-vs.html" : "IMIST-AMBO Handover Sections"
+  }]
+}

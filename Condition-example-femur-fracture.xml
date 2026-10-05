@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Condition xmlns="http://hl7.org/fhir">
+  <id value="example-femur-fracture"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Condition example-femur-fracture</b></p><a name="example-femur-fracture"> </a><a name="hcexample-femur-fracture"> </a><p><b>Handover Source Section</b>: <a href="CodeSystem-imist-ambo-section.html#imist-ambo-section-I-inj">IMIST-AMBO Handover Section: I-inj</a> (Injuries / information)</p><p><b>clinicalStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-clinical active}">Active</span></p><p><b>verificationStatus</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-ver-status provisional}">Provisional</span></p><p><b>category</b>: <span title="Codes:{http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}">Encounter Diagnosis</span></p><p><b>code</b>: <span title="Codes:{http://snomed.info/sct 71620000}">Fracture of femur</span></p><p><b>subject</b>: <a href="Patient-example.html"> Male, DoB:  ( ?ngen-9?)</a></p><p><b>encounter</b>: <a href="Encounter-example-handover-encounter.html">Encounter: status = arrived; class = emergency (ActCode#EMER); period = 2026-10-05 09:42:00+1100 --&gt; (ongoing)</a></p></div>
+  </text>
+  <extension url="https://basanovase.github.io/paramedic-handover-ig/StructureDefinition/handover-source-section">
+    <valueCoding>
+      <system value="https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section"/>
+      <code value="I-inj"/>
+      <display value="Injuries / information"/>
+    </valueCoding>
+  </extension>
+  <clinicalStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical"/>
+      <code value="active"/>
+    </coding>
+  </clinicalStatus>
+  <verificationStatus>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-ver-status"/>
+      <code value="provisional"/>
+    </coding>
+  </verificationStatus>
+  <category>
+    <coding>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-category"/>
+      <code value="encounter-diagnosis"/>
+    </coding>
+  </category>
+  <code>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="71620000"/>
+      <display value="Fracture of femur"/>
+    </coding>
+  </code>
+  <subject>
+    <reference value="Patient/example"/>
+  </subject>
+  <encounter>
+    <reference value="Encounter/example-handover-encounter"/>
+  </encounter>
+</Condition>

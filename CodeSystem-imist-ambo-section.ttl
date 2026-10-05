@@ -1,0 +1,88 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "imist-ambo-section"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem imist-ambo-section</b></p><a name=\"imist-ambo-section\"> </a><a name=\"hcimist-ambo-section\"> </a><p>This case-sensitive code system <code>https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">I-ident<a name=\"imist-ambo-section-I-ident\"> </a></td><td>Identification</td><td>Patient identification</td></tr><tr><td style=\"white-space:nowrap\">M-mech<a name=\"imist-ambo-section-M-mech\"> </a></td><td>Mechanism / medical complaint</td><td>Mechanism of injury or medical complaint</td></tr><tr><td style=\"white-space:nowrap\">I-inj<a name=\"imist-ambo-section-I-inj\"> </a></td><td>Injuries / information</td><td>Injuries found or information relative to the complaint</td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"imist-ambo-section-S\"> </a></td><td>Signs</td><td>Vital signs and GCS</td></tr><tr><td style=\"white-space:nowrap\">T<a name=\"imist-ambo-section-T\"> </a></td><td>Treatment and trends</td><td>Treatment given and patient trends</td></tr><tr><td style=\"white-space:nowrap\">A<a name=\"imist-ambo-section-A\"> </a></td><td>Allergies</td><td>Allergies</td></tr><tr><td style=\"white-space:nowrap\">M-meds<a name=\"imist-ambo-section-M-meds\"> </a></td><td>Medications</td><td>Medications</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"imist-ambo-section-B\"> </a></td><td>Background</td><td>Background history</td></tr><tr><td style=\"white-space:nowrap\">O<a name=\"imist-ambo-section-O\"> </a></td><td>Other</td><td>Other information</td></tr></table></div>"
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section"] ;
+  fhir:CodeSystem.version [ fhir:value "0.1.0"] ;
+  fhir:CodeSystem.name [ fhir:value "ImistAmboSection"] ;
+  fhir:CodeSystem.title [ fhir:value "IMIST-AMBO Handover Section"] ;
+  fhir:CodeSystem.status [ fhir:value "draft"] ;
+  fhir:CodeSystem.date [ fhir:value "2026-10-05T08:19:54+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Basal (Flynn McLean)"] ;
+  fhir:CodeSystem.contact [
+     fhir:index 0 ;
+     fhir:ContactDetail.name [ fhir:value "Basal (Flynn McLean)" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index 0 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "https://basal.com.au" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Sections of the IMIST-AMBO clinical handover mnemonic."] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.count [ fhir:value "9"^^xsd:nonNegativeInteger] ;
+  fhir:CodeSystem.concept [
+     fhir:index 0 ;
+     fhir:CodeSystem.concept.code [ fhir:value "I-ident" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Identification" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Patient identification" ]
+  ], [
+     fhir:index 1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "M-mech" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Mechanism / medical complaint" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Mechanism of injury or medical complaint" ]
+  ], [
+     fhir:index 2 ;
+     fhir:CodeSystem.concept.code [ fhir:value "I-inj" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Injuries / information" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Injuries found or information relative to the complaint" ]
+  ], [
+     fhir:index 3 ;
+     fhir:CodeSystem.concept.code [ fhir:value "S" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Signs" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Vital signs and GCS" ]
+  ], [
+     fhir:index 4 ;
+     fhir:CodeSystem.concept.code [ fhir:value "T" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Treatment and trends" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Treatment given and patient trends" ]
+  ], [
+     fhir:index 5 ;
+     fhir:CodeSystem.concept.code [ fhir:value "A" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Allergies" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Allergies" ]
+  ], [
+     fhir:index 6 ;
+     fhir:CodeSystem.concept.code [ fhir:value "M-meds" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Medications" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Medications" ]
+  ], [
+     fhir:index 7 ;
+     fhir:CodeSystem.concept.code [ fhir:value "B" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Background" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Background history" ]
+  ], [
+     fhir:index 8 ;
+     fhir:CodeSystem.concept.code [ fhir:value "O" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Other" ] ;
+     fhir:CodeSystem.concept.definition [ fhir:value "Other information" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

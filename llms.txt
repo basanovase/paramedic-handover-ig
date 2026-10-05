@@ -1,0 +1,44 @@
+# paramedic.handover#0.1.0: Paramedic Handover Implementation Guide
+
+## Pages
+
+* [Home](index.md)
+* [Artifacts Summary](artifacts.md)
+
+## Resources
+
+### CodeSystems
+
+* [Handover Task Codes](CodeSystem-handover-task-code.md)
+* [IMIST-AMBO Handover Section](CodeSystem-imist-ambo-section.md)
+
+### ValueSets
+
+* [IMIST-AMBO Handover Sections](ValueSet-imist-ambo-section-vs.md)
+
+### Resource Profiles
+
+* [Handover Admit Task](StructureDefinition-handover-admit-task.md)
+* [Handover Transcript](StructureDefinition-handover-transcript.md)
+* [Paramedic Handover Bundle](StructureDefinition-paramedic-handover-bundle.md)
+* [Paramedic Handover Encounter](StructureDefinition-paramedic-handover-encounter.md)
+
+### Extensions
+
+* [Handover Source Section](StructureDefinition-handover-source-section.md)
+
+### CapabilityStatements
+
+* [Paramedic Handover Receiver](CapabilityStatement-ParamedicHandoverReceiver.md)
+
+### ImplementationGuides
+
+* [Paramedic Handover Implementation Guide](index.md)
+
+### Examples
+
+* [example-femur-fracture (Condition)](Condition-example-femur-fracture.md)
+* [example-handover-encounter (Encounter)](Encounter-example-handover-encounter.md)
+* [example (Patient)](Patient-example.md)
+* [example-paramedic (Practitioner)](Practitioner-example-paramedic.md)
+* [example-admit-task (Task)](Task-example-admit-task.md)

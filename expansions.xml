@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="e33b781d-e696-4456-a980-c535bd8d1e53"/>
+  <meta>
+    <lastUpdated value="2026-10-05T08:19:54.691+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://basanovase.github.io/paramedic-handover-ig/ValueSet/imist-ambo-section-vs"/>
+    <resource>
+      <ValueSet>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-imist-ambo-section.html">codesystem IMIST-AMBO Handover Section v0.1.0 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section|0.1.0" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 9 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section-I-ident"> </a>
+                  <code>https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-imist-ambo-section.html#imist-ambo-section-I-ident">I-ident</a>
+                </td>
+                <td>Identification</td>
+                <td>Patient identification</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;I-ident&quot;, &quot;display&quot;: &quot;Identification&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;I-ident&quot;&gt;&lt;display value=&quot;Identification&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section-M-mech"> </a>
+                  <code>https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-imist-ambo-section.html#imist-ambo-section-M-mech">M-mech</a>
+                </td>
+                <td>Mechanism / medical complaint</td>
+                <td>Mechanism of injury or medical complaint</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;M-mech&quot;, &quot;display&quot;: &quot;Mechanism / medical complaint&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;M-mech&quot;&gt;&lt;display value=&quot;Mechanism / medical complaint&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section-I-inj"> </a>
+                  <code>https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-imist-ambo-section.html#imist-ambo-section-I-inj">I-inj</a>
+                </td>
+                <td>Injuries / information</td>
+                <td>Injuries found or information relative to the complaint</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;I-inj&quot;, &quot;display&quot;: &quot;Injuries / information&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;I-inj&quot;&gt;&lt;display value=&quot;Injuries / information&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section-S"> </a>
+                  <code>https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-imist-ambo-section.html#imist-ambo-section-S">S</a>
+                </td>
+                <td>Signs</td>
+                <td>Vital signs and GCS</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;S&quot;, &quot;display&quot;: &quot;Signs&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;S&quot;&gt;&lt;display value=&quot;Signs&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section-T"> </a>
+                  <code>https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-imist-ambo-section.html#imist-ambo-section-T">T</a>
+                </td>
+                <td>Treatment and trends</td>
+                <td>Treatment given and patient trends</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;T&quot;, &quot;display&quot;: &quot;Treatment and trends&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;T&quot;&gt;&lt;display value=&quot;Treatment and trends&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section-A"> </a>
+                  <code>https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-imist-ambo-section.html#imist-ambo-section-A">A</a>
+                </td>
+                <td>Allergies</td>
+                <td>Allergies</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;A&quot;, &quot;display&quot;: &quot;Allergies&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;A&quot;&gt;&lt;display value=&quot;Allergies&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section-M-meds"> </a>
+                  <code>https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-imist-ambo-section.html#imist-ambo-section-M-meds">M-meds</a>
+                </td>
+                <td>Medications</td>
+                <td>Medications</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;M-meds&quot;, &quot;display&quot;: &quot;Medications&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;M-meds&quot;&gt;&lt;display value=&quot;Medications&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section-B"> </a>
+                  <code>https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-imist-ambo-section.html#imist-ambo-section-B">B</a>
+                </td>
+                <td>Background</td>
+                <td>Background history</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;B&quot;, &quot;display&quot;: &quot;Background&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;B&quot;&gt;&lt;display value=&quot;Background&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section-O"> </a>
+                  <code>https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-imist-ambo-section.html#imist-ambo-section-O">O</a>
+                </td>
+                <td>Other</td>
+                <td>Other information</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;, &quot;version&quot;: &quot;0.1.0&quot;, &quot;code&quot;: &quot;O&quot;, &quot;display&quot;: &quot;Other&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section&quot;&gt;&lt;version value=&quot;0.1.0&quot;&gt;&lt;code value=&quot;O&quot;&gt;&lt;display value=&quot;Other&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://basanovase.github.io/paramedic-handover-ig/ValueSet/imist-ambo-section-vs"/>
+        <version value="0.1.0"/>
+        <name value="ImistAmboSectionVS"/>
+        <title value="IMIST-AMBO Handover Sections"/>
+        <status value="draft"/>
+        <date value="2026-10-05T08:19:54+00:00"/>
+        <expansion>
+          <identifier value="urn:uuid:43a08b00-e159-45f7-b505-db3a159357fc"/>
+          <timestamp value="2026-10-05T08:21:32+00:00"/>
+          <total value="9"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section|0.1.0"/>
+          </parameter>
+          <contains>
+            <system value="https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section"/>
+            <code value="I-ident"/>
+            <display value="Identification"/>
+          </contains>
+          <contains>
+            <system value="https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section"/>
+            <code value="M-mech"/>
+            <display value="Mechanism / medical complaint"/>
+          </contains>
+          <contains>
+            <system value="https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section"/>
+            <code value="I-inj"/>
+            <display value="Injuries / information"/>
+          </contains>
+          <contains>
+            <system value="https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section"/>
+            <code value="S"/>
+            <display value="Signs"/>
+          </contains>
+          <contains>
+            <system value="https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section"/>
+            <code value="T"/>
+            <display value="Treatment and trends"/>
+          </contains>
+          <contains>
+            <system value="https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section"/>
+            <code value="A"/>
+            <display value="Allergies"/>
+          </contains>
+          <contains>
+            <system value="https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section"/>
+            <code value="M-meds"/>
+            <display value="Medications"/>
+          </contains>
+          <contains>
+            <system value="https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section"/>
+            <code value="B"/>
+            <display value="Background"/>
+          </contains>
+          <contains>
+            <system value="https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section"/>
+            <code value="O"/>
+            <display value="Other"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>

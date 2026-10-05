@@ -1,0 +1,28 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "imist-ambo-section-vs",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet imist-ambo-section-vs</b></p><a name=\"imist-ambo-section-vs\"> </a><a name=\"hcimist-ambo-section-vs\"> </a><ul><li>Include all codes defined in <a href=\"CodeSystem-imist-ambo-section.html\"><code>https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section</code></a><span title=\"Version is not explicitly stated, which means it is fixed to the version provided in this specification\"> version &#x1F4E6;0.1.0</span></li></ul></div>"
+  },
+  "url" : "https://basanovase.github.io/paramedic-handover-ig/ValueSet/imist-ambo-section-vs",
+  "version" : "0.1.0",
+  "name" : "ImistAmboSectionVS",
+  "title" : "IMIST-AMBO Handover Sections",
+  "status" : "draft",
+  "date" : "2026-10-05T08:19:54+00:00",
+  "publisher" : "Basal (Flynn McLean)",
+  "contact" : [{
+    "name" : "Basal (Flynn McLean)",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://basal.com.au"
+    }]
+  }],
+  "description" : "All IMIST-AMBO handover sections.",
+  "compose" : {
+    "include" : [{
+      "system" : "https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section"
+    }]
+  }
+}

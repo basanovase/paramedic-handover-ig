@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="handover-task-code"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem handover-task-code</b></p><a name="handover-task-code"> </a><a name="hchandover-task-code"> </a><p>This case-sensitive code system <code>https://basanovase.github.io/paramedic-handover-ig/CodeSystem/handover-task-code</code> defines the following code:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">admit<a name="handover-task-code-admit"> </a></td><td>ED admission processing</td></tr></table></div>
+  </text>
+  <url value="https://basanovase.github.io/paramedic-handover-ig/CodeSystem/handover-task-code"/>
+  <version value="0.1.0"/>
+  <name value="HandoverTaskCode"/>
+  <title value="Handover Task Codes"/>
+  <status value="draft"/>
+  <date value="2026-10-05T08:19:54+00:00"/>
+  <publisher value="Basal (Flynn McLean)"/>
+  <contact>
+    <name value="Basal (Flynn McLean)"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://basal.com.au"/>
+    </telecom>
+  </contact>
+  <description value="Local workflow codes for ED handover processing."/>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="admit"/>
+    <display value="ED admission processing"/>
+  </concept>
+</CodeSystem>

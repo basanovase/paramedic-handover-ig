@@ -1,0 +1,71 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "imist-ambo-section",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem imist-ambo-section</b></p><a name=\"imist-ambo-section\"> </a><a name=\"hcimist-ambo-section\"> </a><p>This case-sensitive code system <code>https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section</code> defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">I-ident<a name=\"imist-ambo-section-I-ident\"> </a></td><td>Identification</td><td>Patient identification</td></tr><tr><td style=\"white-space:nowrap\">M-mech<a name=\"imist-ambo-section-M-mech\"> </a></td><td>Mechanism / medical complaint</td><td>Mechanism of injury or medical complaint</td></tr><tr><td style=\"white-space:nowrap\">I-inj<a name=\"imist-ambo-section-I-inj\"> </a></td><td>Injuries / information</td><td>Injuries found or information relative to the complaint</td></tr><tr><td style=\"white-space:nowrap\">S<a name=\"imist-ambo-section-S\"> </a></td><td>Signs</td><td>Vital signs and GCS</td></tr><tr><td style=\"white-space:nowrap\">T<a name=\"imist-ambo-section-T\"> </a></td><td>Treatment and trends</td><td>Treatment given and patient trends</td></tr><tr><td style=\"white-space:nowrap\">A<a name=\"imist-ambo-section-A\"> </a></td><td>Allergies</td><td>Allergies</td></tr><tr><td style=\"white-space:nowrap\">M-meds<a name=\"imist-ambo-section-M-meds\"> </a></td><td>Medications</td><td>Medications</td></tr><tr><td style=\"white-space:nowrap\">B<a name=\"imist-ambo-section-B\"> </a></td><td>Background</td><td>Background history</td></tr><tr><td style=\"white-space:nowrap\">O<a name=\"imist-ambo-section-O\"> </a></td><td>Other</td><td>Other information</td></tr></table></div>"
+  },
+  "url" : "https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section",
+  "version" : "0.1.0",
+  "name" : "ImistAmboSection",
+  "title" : "IMIST-AMBO Handover Section",
+  "status" : "draft",
+  "date" : "2026-10-05T08:19:54+00:00",
+  "publisher" : "Basal (Flynn McLean)",
+  "contact" : [{
+    "name" : "Basal (Flynn McLean)",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://basal.com.au"
+    }]
+  }],
+  "description" : "Sections of the IMIST-AMBO clinical handover mnemonic.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 9,
+  "concept" : [{
+    "code" : "I-ident",
+    "display" : "Identification",
+    "definition" : "Patient identification"
+  },
+  {
+    "code" : "M-mech",
+    "display" : "Mechanism / medical complaint",
+    "definition" : "Mechanism of injury or medical complaint"
+  },
+  {
+    "code" : "I-inj",
+    "display" : "Injuries / information",
+    "definition" : "Injuries found or information relative to the complaint"
+  },
+  {
+    "code" : "S",
+    "display" : "Signs",
+    "definition" : "Vital signs and GCS"
+  },
+  {
+    "code" : "T",
+    "display" : "Treatment and trends",
+    "definition" : "Treatment given and patient trends"
+  },
+  {
+    "code" : "A",
+    "display" : "Allergies",
+    "definition" : "Allergies"
+  },
+  {
+    "code" : "M-meds",
+    "display" : "Medications",
+    "definition" : "Medications"
+  },
+  {
+    "code" : "B",
+    "display" : "Background",
+    "definition" : "Background history"
+  },
+  {
+    "code" : "O",
+    "display" : "Other",
+    "definition" : "Other information"
+  }]
+}

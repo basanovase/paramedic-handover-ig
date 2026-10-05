@@ -1,0 +1,11 @@
+{
+  "codeSystems" : [{
+    "url" : "https://basanovase.github.io/paramedic-handover-ig/ValueSet/imist-ambo-section-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ImistAmboSectionVS",
+    "title" : "IMIST-AMBO Handover Sections",
+    "description" : "All IMIST-AMBO handover sections.",
+    "systems" : ["https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section"]
+  }]
+}

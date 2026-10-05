@@ -1,0 +1,30 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "handover-task-code",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem handover-task-code</b></p><a name=\"handover-task-code\"> </a><a name=\"hchandover-task-code\"> </a><p>This case-sensitive code system <code>https://basanovase.github.io/paramedic-handover-ig/CodeSystem/handover-task-code</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style=\"white-space:nowrap\">admit<a name=\"handover-task-code-admit\"> </a></td><td>ED admission processing</td></tr></table></div>"
+  },
+  "url" : "https://basanovase.github.io/paramedic-handover-ig/CodeSystem/handover-task-code",
+  "version" : "0.1.0",
+  "name" : "HandoverTaskCode",
+  "title" : "Handover Task Codes",
+  "status" : "draft",
+  "date" : "2026-10-05T08:19:54+00:00",
+  "publisher" : "Basal (Flynn McLean)",
+  "contact" : [{
+    "name" : "Basal (Flynn McLean)",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://basal.com.au"
+    }]
+  }],
+  "description" : "Local workflow codes for ED handover processing.",
+  "caseSensitive" : true,
+  "content" : "complete",
+  "count" : 1,
+  "concept" : [{
+    "code" : "admit",
+    "display" : "ED admission processing"
+  }]
+}

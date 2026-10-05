@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Encounter xmlns="http://hl7.org/fhir">
+  <id value="example-handover-encounter"/>
+  <meta>
+    <profile value="https://basanovase.github.io/paramedic-handover-ig/StructureDefinition/paramedic-handover-encounter"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: Encounter example-handover-encounter</b></p><a name="example-handover-encounter"> </a><a name="hcexample-handover-encounter"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-paramedic-handover-encounter.html">Paramedic Handover Encounter</a></p></div><p><b>status</b>: Arrived</p><p><b>class</b>: <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-ActCode.html#v3-ActCode-EMER">ActCode: EMER</a> (emergency)</p><p><b>subject</b>: <a href="Patient-example.html"> Male, DoB:  ( ?ngen-9?)</a></p><h3>Participants</h3><table class="grid"><tr><td style="display: none">-</td><td><b>Type</b></td><td><b>Individual</b></td></tr><tr><td style="display: none">*</td><td><span title="Codes:{http://terminology.hl7.org/CodeSystem/v3-ParticipationType PPRF}">primary performer</span></td><td><a href="Practitioner-example-paramedic.html">Practitioner Sam Jensen </a></td></tr></table><p><b>period</b>: 2026-10-05 09:42:00+1100 --&gt; (ongoing)</p></div>
+  </text>
+  <status value="arrived"/>
+  <class>
+    <system value="http://terminology.hl7.org/CodeSystem/v3-ActCode"/>
+    <code value="EMER"/>
+    <display value="emergency"/>
+  </class>
+  <subject>
+    <reference value="Patient/example"/>
+  </subject>
+  <participant>
+    <type>
+      <coding>
+        <system value="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"/>
+        <code value="PPRF"/>
+        <display value="primary performer"/>
+      </coding>
+    </type>
+    <individual>
+      <reference value="Practitioner/example-paramedic"/>
+    </individual>
+  </participant>
+  <period>
+    <start value="2026-10-05T09:42:00+11:00"/>
+  </period>
+</Encounter>

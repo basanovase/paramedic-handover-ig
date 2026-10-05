@@ -1,0 +1,28 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/ValueSet/encounter-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "EncounterStatus",
+    "title" : "EncounterStatus",
+    "description" : "Current state of the encounter.",
+    "systems" : ["http://hl7.org/fhir/encounter-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.246"],
+    "sources" : ["2.16.840.1.113883.4.642.3.246"],
+    "uses" : {
+    },
+    "StructureDefinition-paramedic-handover-encounter.html" : "Paramedic Handover Encounter"
+  },
+  {
+    "url" : "https://basanovase.github.io/paramedic-handover-ig/ValueSet/imist-ambo-section-vs",
+    "version" : "0.1.0",
+    "status" : "draft",
+    "name" : "ImistAmboSectionVS",
+    "title" : "IMIST-AMBO Handover Sections",
+    "description" : "All IMIST-AMBO handover sections.",
+    "systems" : ["https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section"],
+    "uses" : {
+    },
+    "StructureDefinition-handover-source-section.html" : "Handover Source Section"
+  }]
+}

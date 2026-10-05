@@ -1,0 +1,49 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://basanovase.github.io/paramedic-handover-ig/Task/example-admit-task> a fhir:Task ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "example-admit-task"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "https://basanovase.github.io/paramedic-handover-ig/StructureDefinition/handover-admit-task" ;
+       fhir:index 0 ;
+       fhir:link <https://basanovase.github.io/paramedic-handover-ig/StructureDefinition/handover-admit-task>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Task example-admit-task</b></p><a name=\"example-admit-task\"> </a><a name=\"hcexample-admit-task\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-handover-admit-task.html\">Handover Admit Task</a></p></div><p><b>status</b>: Requested</p><p><b>intent</b>: order</p><p><b>priority</b>: Urgent</p><p><b>code</b>: <span title=\"Codes:{https://basanovase.github.io/paramedic-handover-ig/CodeSystem/handover-task-code admit}\">ED admission processing</span></p><p><b>description</b>: Verify patient identity, confirm SNOMED codings, and admit.</p><p><b>focus</b>: <a href=\"Encounter-example-handover-encounter.html\">Encounter: status = arrived; class = emergency (ActCode#EMER); period = 2026-10-05 09:42:00+1100 --&gt; (ongoing)</a></p><p><b>for</b>: <a href=\"Patient-example.html\"> Male, DoB:  ( ?ngen-9?)</a></p></div>"
+  ] ;
+  fhir:Task.status [ fhir:value "requested"] ;
+  fhir:Task.intent [ fhir:value "order"] ;
+  fhir:Task.priority [ fhir:value "urgent"] ;
+  fhir:Task.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "https://basanovase.github.io/paramedic-handover-ig/CodeSystem/handover-task-code" ] ;
+       fhir:Coding.code [ fhir:value "admit" ] ;
+       fhir:Coding.display [ fhir:value "ED admission processing" ]
+     ]
+  ] ;
+  fhir:Task.description [ fhir:value "Verify patient identity, confirm SNOMED codings, and admit."] ;
+  fhir:Task.focus [
+     fhir:link <https://basanovase.github.io/paramedic-handover-ig/Encounter/example-handover-encounter> ;
+     fhir:Reference.reference [ fhir:value "Encounter/example-handover-encounter" ]
+  ] ;
+  fhir:Task.for [
+     fhir:link <https://basanovase.github.io/paramedic-handover-ig/Patient/example> ;
+     fhir:Reference.reference [ fhir:value "Patient/example" ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://basanovase.github.io/paramedic-handover-ig/Task/example-admit-task.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

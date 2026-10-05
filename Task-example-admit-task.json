@@ -1,0 +1,28 @@
+{
+  "resourceType" : "Task",
+  "id" : "example-admit-task",
+  "meta" : {
+    "profile" : ["https://basanovase.github.io/paramedic-handover-ig/StructureDefinition/handover-admit-task"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: Task example-admit-task</b></p><a name=\"example-admit-task\"> </a><a name=\"hcexample-admit-task\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-handover-admit-task.html\">Handover Admit Task</a></p></div><p><b>status</b>: Requested</p><p><b>intent</b>: order</p><p><b>priority</b>: Urgent</p><p><b>code</b>: <span title=\"Codes:{https://basanovase.github.io/paramedic-handover-ig/CodeSystem/handover-task-code admit}\">ED admission processing</span></p><p><b>description</b>: Verify patient identity, confirm SNOMED codings, and admit.</p><p><b>focus</b>: <a href=\"Encounter-example-handover-encounter.html\">Encounter: status = arrived; class = emergency (ActCode#EMER); period = 2026-10-05 09:42:00+1100 --&gt; (ongoing)</a></p><p><b>for</b>: <a href=\"Patient-example.html\"> Male, DoB:  ( ?ngen-9?)</a></p></div>"
+  },
+  "status" : "requested",
+  "intent" : "order",
+  "priority" : "urgent",
+  "code" : {
+    "coding" : [{
+      "system" : "https://basanovase.github.io/paramedic-handover-ig/CodeSystem/handover-task-code",
+      "code" : "admit",
+      "display" : "ED admission processing"
+    }]
+  },
+  "description" : "Verify patient identity, confirm SNOMED codings, and admit.",
+  "focus" : {
+    "reference" : "Encounter/example-handover-encounter"
+  },
+  "for" : {
+    "reference" : "Patient/example"
+  }
+}

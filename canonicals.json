@@ -1,0 +1,70 @@
+[{
+  "id" : "ParamedicHandoverReceiver",
+  "type" : "CapabilityStatement",
+  "url" : "https://basanovase.github.io/paramedic-handover-ig/CapabilityStatement/ParamedicHandoverReceiver",
+  "version" : "0.1.0",
+  "name" : "ParamedicHandoverReceiver"
+},
+{
+  "id" : "handover-task-code",
+  "type" : "CodeSystem",
+  "url" : "https://basanovase.github.io/paramedic-handover-ig/CodeSystem/handover-task-code",
+  "version" : "0.1.0",
+  "name" : "HandoverTaskCode"
+},
+{
+  "id" : "imist-ambo-section",
+  "type" : "CodeSystem",
+  "url" : "https://basanovase.github.io/paramedic-handover-ig/CodeSystem/imist-ambo-section",
+  "version" : "0.1.0",
+  "name" : "ImistAmboSection"
+},
+{
+  "id" : "paramedic.handover",
+  "type" : "ImplementationGuide",
+  "url" : "https://basanovase.github.io/paramedic-handover-ig/ImplementationGuide/paramedic.handover",
+  "version" : "0.1.0",
+  "name" : "ParamedicHandoverIG"
+},
+{
+  "id" : "handover-admit-task",
+  "type" : "StructureDefinition",
+  "url" : "https://basanovase.github.io/paramedic-handover-ig/StructureDefinition/handover-admit-task",
+  "version" : "0.1.0",
+  "name" : "HandoverAdmitTask"
+},
+{
+  "id" : "handover-source-section",
+  "type" : "StructureDefinition",
+  "url" : "https://basanovase.github.io/paramedic-handover-ig/StructureDefinition/handover-source-section",
+  "version" : "0.1.0",
+  "name" : "HandoverSourceSection"
+},
+{
+  "id" : "handover-transcript",
+  "type" : "StructureDefinition",
+  "url" : "https://basanovase.github.io/paramedic-handover-ig/StructureDefinition/handover-transcript",
+  "version" : "0.1.0",
+  "name" : "HandoverTranscript"
+},
+{
+  "id" : "paramedic-handover-bundle",
+  "type" : "StructureDefinition",
+  "url" : "https://basanovase.github.io/paramedic-handover-ig/StructureDefinition/paramedic-handover-bundle",
+  "version" : "0.1.0",
+  "name" : "ParamedicHandoverBundle"
+},
+{
+  "id" : "paramedic-handover-encounter",
+  "type" : "StructureDefinition",
+  "url" : "https://basanovase.github.io/paramedic-handover-ig/StructureDefinition/paramedic-handover-encounter",
+  "version" : "0.1.0",
+  "name" : "ParamedicHandoverEncounter"
+},
+{
+  "id" : "imist-ambo-section-vs",
+  "type" : "ValueSet",
+  "url" : "https://basanovase.github.io/paramedic-handover-ig/ValueSet/imist-ambo-section-vs",
+  "version" : "0.1.0",
+  "name" : "ImistAmboSectionVS"
+}]
