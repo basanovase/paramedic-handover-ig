@@ -1,0 +1,18 @@
+id: paramedic.handover
+canonical: https://basanovase.github.io/paramedic-handover-ig
+name: ParamedicHandoverIG
+title: Paramedic Handover Implementation Guide
+status: draft
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2026+
+releaseLabel: ci-build
+publisher:
+  name: Basal (Flynn McLean)
+  url: https://basal.com.au
+dependencies:
+  hl7.fhir.au.core: 1.1.0-preview
+  hl7.fhir.au.base: 5.1.0-preview
+menu:
+  Home: index.html
+  Artifacts: artifacts.html
